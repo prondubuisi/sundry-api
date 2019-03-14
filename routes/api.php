@@ -19,19 +19,23 @@ use Illuminate\Http\Request;
 
 
 
-Route::post('/components/create','FormComponentsController@create');
-Route::get('/components','FormComponentsController@list');
-Route::get('/components/{id}','FormComponentsController@show');
-Route::put('/components/{id}', 'FormComponentsController@update');
-Route::delete('/components/{id}', 'FormComponentsController@delete');
+
+Route::get('/components','FormComponentsController@listAllComponents');//
+Route::get('/components/{id}','FormComponentsController@listSingleComponent');
+Route::post('/components', 'FormComponentsController@store');
+Route::put('/components/update/{id}', 'FormComponentsController@update');
+Route::delete('/components/delete/{id}', 'FormComponentsController@softDelete');
 
 Route::get('/listings','JobListingsController@listAllJobs');
 Route::get('/listings/{id}','JobListingsController@listSingleJob');
+Route::post('/components/create','FormComponentsController@store');//
 Route::post('/listings','JobListingsController@store');
 Route::put('/listings/update/{id}','JobListingsController@update');
 Route::delete('/listings/delete/{id}','JobListingsController@softDelete');
 Route::put('listings/close/{id}','JobListingsController@close');
 
+Route::post('users','UsersController@store');
+Route::post('users/login','UsersController@login');
 
 
 

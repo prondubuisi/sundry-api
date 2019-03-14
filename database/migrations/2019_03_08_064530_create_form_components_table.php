@@ -19,6 +19,7 @@ class CreateFormComponentsTable extends Migration
             $table->text('component');
             $table->string('component_id');
             $table->string('component_name');
+            $table->tinyInteger('delete')->default(0);
             $table->timestamps();
         });
     }
