@@ -29,7 +29,7 @@ class FormComponentStoreRequest extends FormRequest
             'component' => 'required|min:20',
             'component_id' => 'required|min:4',
             'component_name' => 'required|min:4',
-            'delete' => 'integer|'
+            
         ];
     }
 

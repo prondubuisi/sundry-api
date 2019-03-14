@@ -1,0 +1,53 @@
+.login-content{
+	padding: 0px !important;
+}
+
+.login-content .login-logo{
+	padding: 10px;
+	background: #585858;
+	text-align: center;
+}
+
+.logo-area{
+	width: 100px;
+	margin: 0 auto;
+}
+
+.logo-area img{
+	width: 100%;
+}
+.padded-inputs{
+	padding: 30px 30px 20px;
+}
+
+.login-form button{
+	height: 70px;
+}
+
+section{
+	background: #fff;
+	padding: 0px 20px 0px 20px;
+	padding-top: 50px;
+}
+
+.au-breadcrumb-left h3{
+	color: #fff;
+}
+
+.fa-globe{
+	color: green;
+}
+
+.fa-pencil-alt{
+	color: green;
+}
+
+.fa-trash{
+	color: red;
+}
+
+#new_opening_form textarea{
+	height: 300px;
+	resize: none;
+}
+/*#ffa01b*/
