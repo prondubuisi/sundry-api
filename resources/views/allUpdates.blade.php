@@ -157,7 +157,7 @@
                                     <i class="fa fa-globe"></i>
                                 </a>
                                 &nbsp;
-                                <a href="new_update.php" title="Edit">
+                                <a href="/new_update" title="Edit">
                                     <i class="fa fa-pencil-alt"></i>
                                 </a>
                                 &nbsp;

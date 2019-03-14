@@ -1,6 +1,6 @@
 <ul class="list-unstyled navbar__list">
     <li class="active">
-        <a href="home.php">
+        <a href="/">
             <i class="fas fa-chart-bar"></i>
             Dashboard
         </a>
@@ -14,15 +14,15 @@
         </a>
         <ul class="list-unstyled navbar__sub-list js-sub-list">
             <li>
-                <a href="all_openings.php">
+                <a href="/openings">
                     <i class="fas fa-table"></i>All Openings</a>
             </li>
             <li>
-                <a href="new_opening.php">
+                <a href="/new_opening">
                     <i class="far fa-check-square"></i>Add New Opening</a>
             </li>
             <li>
-                <a href="starred_applications.php">
+                <a href="/starred">
                     <i class="fas fa-calendar-alt"></i>Starred Applications</a>
             </li>
         </ul>
@@ -36,17 +36,17 @@
         </a>
         <ul class="list-unstyled navbar__sub-list js-sub-list">
             <li>
-                <a href="tests.php">
+                <a href="/tests">
                     <i class="fas fa-table"></i>All Test</a>
             </li>
             <li>
-                <a href="create_test.php">
+                <a href="/create_test">
                     <i class="far fa-check-square"></i>Add New Test</a>
             </li>
         </ul>
     </li>
     <li class="">
-        <a href="roles.php">
+        <a href="#">
             <i class="fas fa-chart-bar"></i>
             Roles Management
         </a>
@@ -60,11 +60,11 @@
         </a>
         <ul class="list-unstyled navbar__sub-list js-sub-list">
             <li>
-                <a href="new_update.php">
+                <a href="/new_update">
                     <i class="fas fa-table"></i>New Update</a>
             </li>
             <li>
-                <a href="all_updates.php">
+                <a href="/updates">
                     <i class="far fa-check-square"></i>All Updates</a>
             </li>
         </ul>
